@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: whitesmoke;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 225px);
+    grid-template-rows: repeat(4, 225px);
+    justify-content: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search_box {
+    width: 38%;
+    padding: 1%;
+}
